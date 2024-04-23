@@ -9,7 +9,7 @@ const MinusButton = (props) => {
   return (
     <button
     onClick={handleSubBtn}
-    className="px-5 py-3 rounded-md bg-gray-500 active:scale-90 duration-150">
+    className="px-5 py-3 rounded-md bg-gray-500 active:scale-90 duration-150 md:w-auto w-full flex justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

@@ -8,7 +8,7 @@ const PlusButton = (props) => {
   return (
     <button
       onClick={handleAddBtn}
-      className="px-5 py-3 rounded-md bg-gray-500 active:scale-90 duration-150"
+      className="px-5 py-3 rounded-md md:w-auto w-full flex justify-center bg-gray-500 active:scale-90 duration-150"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
